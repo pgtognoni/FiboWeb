@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styleFibo.css">
+    <title>Fibonacci</title>
+</head>
+<body>
+    <h1 class="title">La Serie de Fibonacci</h1>
+    <img class="img" src="https://ecoosfera.com/wp-content/imagenes/FIBONACCI-V1.jpeg">
+    <div class="container">
+        <div class="text">
+            <p>La serie de Fibonacci es una de las secuencias de números más famosas de la historia.</p>
+            <p>Le llaman "el código secreto de la naturaleza" o la "secuencia divina", porque aparece una y otra vez en estructuras naturales, como los pétalos de un girasol o la cáscara de una piña.</p>
+            <p>En matemática, la sucesión o serie de Fibonacci es la siguiente sucesión infinita de números naturales:</p>
+            <p>0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233...</p>
+            <p>La sucesión comienza con los números 0 y 1, a partir de estos, <a>cada término es la suma de los dos anteriores</a>, es la relación de recurrencia que la define.</p>
+            <p>El 0 es el primer número de la serie y el 1 el siguiente, la suma de los 2, forma también 1, que es el tercer número de la serie.</p>
+            <p>El 2 es el cuarto, el 3 el quinto, el 8 ocupa el lugar número 7 y así sucesivamente...</p>
+            <p>Para conocer un número de la serie de Fibonacci simplemente coloca qué número de la serie quieres saber y te daré el resultado.</p>
+        </div>
+        <div class="input">
+            <input id="number" type="number" min="1" placeholder="Numero">
+            <button>Enviar</button>
+            <h3 id="textResult">¡Aquí verás el número de la Serie que buscas!</h3>
+            <h1 id="result"></h1>
+            
+        </div>
+    </div>
+    <script src="fiboWeb.js"></script>
+</body>
+</html>
